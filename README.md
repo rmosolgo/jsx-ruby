@@ -1,4 +1,4 @@
-# JSX
+# JSX [![Build Status](https://travis-ci.org/rmosolgo/jsx-ruby.svg?branch=master)](https://travis-ci.org/rmosolgo/jsx-ruby) [![Gem Version](https://badge.fury.io/rb/jsx.svg)](http://badge.fury.io/rb/jsx)
 
 A Ruby interface to Facebook's JSX transformer, broken out of `react-rails`. You can:
 
@@ -7,10 +7,8 @@ A Ruby interface to Facebook's JSX transformer, broken out of `react-rails`. You
 
 ## Installation
 
-It's not on RubyGems yet
-
 ```ruby
-gem "jsx", github: "rmosolgo/jsx-ruby"
+gem "jsx"
 ```
 
 ```
