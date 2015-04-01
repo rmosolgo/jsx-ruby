@@ -20,7 +20,7 @@ bundle install
 You can access the transformer directly. Pass it some JavaScript with JSX. Optionally, pass `strip_types` or `harmony`. For example:
 
 ```ruby
-compiled = JSX.transformer.call("<h1>Hello {name}</h1>", strip_types: true, harmony: true)
+compiled = JSX.transform("<h1>Hello {name}</h1>", strip_types: true, harmony: true)
 # 'React.createElement("h1", {className: "greeting"}, "Hello ", name)'
 ```
 
