@@ -1,15 +1,23 @@
 # JSX
 
-A Ruby interface to Facebook's JSX transformer. You can:
+A Ruby interface to Facebook's JSX transformer, broken out of `react-rails`. You can:
 
 - convert JSX willy-nilly
 - Use `JSX::Template` with a Tilt environment (for example, Sinatra)
+
+## Installation
+
+It's not on RubyGems yet
+
+```ruby
+gem "jsx", github: "rmosolgo/jsx-ruby"
+```
 
 ## Ad Hoc Transform
 
 You can access the transformer directly. Pass it some JavaScript with JSX. Optionally, pass `strip_types` or `harmony`. For example:
 
-```
+```ruby
 compiled = JSX.transformer.call("<h1>Hello {name}</h1>", strip_types: true, harmony: true)
 # 'React.createElement("h1", {className: "greeting"}, "Hello ", name)'
 ```
