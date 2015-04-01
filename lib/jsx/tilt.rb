@@ -1,0 +1,1 @@
+Tilt.register(JSX::Template, 'jsx')
