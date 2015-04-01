@@ -13,6 +13,10 @@ It's not on RubyGems yet
 gem "jsx", github: "rmosolgo/jsx-ruby"
 ```
 
+```
+bundle install
+```
+
 ## Ad Hoc Transform
 
 You can access the transformer directly. Pass it some JavaScript with JSX. Optionally, pass `strip_types` or `harmony`. For example:
